@@ -52,7 +52,7 @@
                 streamWriter.WriteLine("Hello, World!");
                 Console.WriteLine("Hello, World!");
                 streamWriter.WriteLine($"{f,17:f5}!!!!!!!!!");
-                Console.WriteLine($"{f,17:f5}!!!!!!!!!");
+                Console.WriteLine($"{f,-17:f5}!!!!!!!!!");
             }
             //streamWriter.Close();
             Console.ReadKey();
